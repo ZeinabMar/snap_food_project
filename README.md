@@ -10,7 +10,7 @@ this Code consists of multi actions alluded in below:
 6) ultimately, choose random advertising car shown
 7) selenium will take screenshot from result of this process for correctness executing code.This image is available as result.png.
 
-**Steps to run the tests by using terminal**:
+## Steps to run the tests by using terminal 
 
 - Install the requirements
     - pip install -r requirements.txt
