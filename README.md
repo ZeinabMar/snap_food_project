@@ -19,7 +19,7 @@ this Code consists of multi actions alluded in below:
     - python -m pytest test_Divar_Web_search_Vehicle.py
 - View the test results as image in /snap_food_project
     - result.png
-    - ![plot]([https://github.com/ZeinabMar/snap_food_project/result.png](https://github.com/ZeinabMar/snap_food_project/blob/main/result.png?raw=true))
+    - ![Image Alt text]([https://github.com/ZeinabMar/snap_food_project/result.png](https://github.com/ZeinabMar/snap_food_project/blob/main/result.png?raw=true))
 
 ## Steps to run the tests in Docker
 
