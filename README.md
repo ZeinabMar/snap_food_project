@@ -18,7 +18,7 @@ this Code consists of multiple actions alluded to below:
 ## Steps to run the tests by using the terminal 
 
 - Install the requirements
-  -    pip install -r requirements.txt
+  -    `pip install -r requirements.txt`
 - Run the tests
   -    cd /snap_food_project
   -    python -m pytest test_Divar_Web_search_Vehicle.py
