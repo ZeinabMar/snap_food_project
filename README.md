@@ -12,20 +12,11 @@ this Code consists of multi actions alluded in below:
 
 The multi-stage `Dockerfile` is completely unnecessary, but it demonstrates an approach that can be used to build `C++` libraries that require a large build environment but a small run environment. 
 
-## Steps to run the tests natively on your machine
-
-**Prerequisites**:
-
-- Python 3
-- [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)
-    - `pip install virtualenvwrapper`
-    - `source /usr/local/bin/virtualenvwrapper.sh`
-
-**Steps**:
+**Steps to run the tests by using terminal**:
 
 - Install the dev/test requirements    - `pip install -r requirements.txt
 - Run the tests
-    - python -m pytest test_Divar_Web_search_Vehicle.py
+    - python -m pytest  - `test_Divar_Web_search_Vehicle.py `
 - View the test results as image
     - result.png 
 
