@@ -15,10 +15,11 @@ this Code consists of multi actions alluded in below:
 - Install the requirements
     - pip install -r requirements.txt
 - Run the tests
-    - cd snap_food_project
+    - cd /snap_food_project
     - python -m pytest test_Divar_Web_search_Vehicle.py
-- View the test results as image
-    - result.png 
+- View the test results as image in /snap_food_project
+    - result.png
+      
 
 ## Steps to run the tests in Docker
 
