@@ -1,6 +1,6 @@
 # Test_Divar_Web_Select_Vehicle
 
-This repository demonstrates a process for selecting a special vehicle from the Divar Website by applying Selenium in python3.10.
+This repository demonstrates a process for selecting a special vehicle from the Divar Website by applying Selenium in **python3.10**.
 this Code consists of multiple actions alluded to below:
 1) select vehicle category
 2) select a special vehicle such as a car
