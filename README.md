@@ -19,7 +19,7 @@ this Code consists of multiple actions alluded to below:
 
 - Install the requirements
 - `pip install -r requirements.txt`
-- `Run the tests`
+- Run the tests
 - `cd /snap_food_project`
 - `python -m pytest test_Divar_Web_search_Vehicle.py`
 - View the test results as an image in /snap_food_project
@@ -37,7 +37,7 @@ this Code consists of multiple actions alluded to below:
 - Build the Docker image
 - `docker build -t "test" -f Dockerfile .`
 - Create a container instance of that image (which will run the entrypoint)
-        `docker run test`
+- `docker run test`
 
 ## Convenience scripts (for Docker approach)
 
