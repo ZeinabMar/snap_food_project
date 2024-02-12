@@ -1,28 +1,28 @@
 # Test_Divar_Web_Select_Vehicle
 
-This repository demonstrates a process for select special vehicle from Divar Webcite by appliying Selenium in python3.10.
-this Code consists of multi actions alluded in below:
+This repository demonstrates a process for selecting a special vehicle from the Divar Website by applying Selenium in python3.10.
+this Code consists of multiple actions alluded to below:
 1) select vehicle category
-2) select special vehicle such as car
-3) select intended use of vehicle
-4) apply three filter for instance color, Maximum price and minimum kilometrage
-5) apply cheapest filter after all of them
-6) ultimately, choose random advertising car shown
-7) selenium will take screenshot from result of this process for correctness executing code.This image is available as result.png.
+2) select a special vehicle such as a car
+3) select the intended use of the vehicle
+4) apply three filters for instance color, Maximum price, and minimum kilometrage
+5) apply the cheapest filter after all of them
+6) ultimately, choose a random advertising car shown
+7) selenium will take screenshots from the result of this process for the correctness of executing code. This image is available as result.png.
 
 ## requirement
     webdriver-manager
     selenium 
     pytest
     
-## Steps to run the tests by using terminal 
+## Steps to run the tests by using the terminal 
 
 - Install the requirements
           pip install -r requirements.txt
 - Run the tests
           cd /snap_food_project
           python -m pytest test_Divar_Web_search_Vehicle.py
-- View the test results as image in /snap_food_project
+- View the test results as an image in /snap_food_project
           result.png
     - ![Image Alt Text](result.png)
 
