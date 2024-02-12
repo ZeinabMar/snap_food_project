@@ -45,4 +45,4 @@ this Code consists of multi actions alluded in below:
 - Build the Docker image
     - `./build.sh`
 - Run the Docker image and extract the test results
-    - `./test.sh`
+    - `./run.sh`
