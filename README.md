@@ -18,12 +18,12 @@ this Code consists of multi actions alluded in below:
 ## Steps to run the tests by using terminal 
 
 - Install the requirements
-      pip install -r requirements.txt
+          pip install -r requirements.txt
 - Run the tests
-      cd /snap_food_project
-      python -m pytest test_Divar_Web_search_Vehicle.py
+          cd /snap_food_project
+          python -m pytest test_Divar_Web_search_Vehicle.py
 - View the test results as image in /snap_food_project
-      result.png
+          result.png
     - ![Image Alt Text](result.png)
 
 ## Steps to run the tests in Docker
@@ -35,13 +35,13 @@ this Code consists of multi actions alluded in below:
 **Steps**:
 
 - Build the Docker image
-    `docker build -t "test" -f Dockerfile .`
+        `docker build -t "test" -f Dockerfile .`
 - Create a container instance of that image (which will run the entrypoint)
-    `docker run test`
+        `docker run test`
 
 ## Convenience scripts (for Docker approach)
 
 - Build the Docker image
-    `./build.sh`
+        `./build.sh`
 - Run the Docker image and extract the test results
-    `./run.sh`
+        `./run.sh`
