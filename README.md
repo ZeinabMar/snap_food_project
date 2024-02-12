@@ -18,13 +18,13 @@ this Code consists of multiple actions alluded to below:
 ## Steps to run the tests by using the terminal 
 
 1) Install the requirements
-    -`pip install -r requirements.txt`
+-    `pip install -r requirements.txt`
 2) Run the tests
-    -`cd /snap_food_project`
-    -`python -m pytest test_Divar_Web_search_Vehicle.py`
+-     `cd /snap_food_project`
+-     `python -m pytest test_Divar_Web_search_Vehicle.py`
 3) View the test results as an image in /snap_food_project
-    -result.png
-    - ![Image Alt Text](result.png)
+-    result.png
+-    ![Image Alt Text](result.png)
 
 ## Steps to run the tests in Docker
 
