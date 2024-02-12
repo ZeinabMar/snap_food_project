@@ -11,9 +11,9 @@ this Code consists of multi actions alluded in below:
 7) selenium will take screenshot from result of this process for correctness executing code.This image is available as result.png.
 
 ## requirement
-    - webdriver-manager
-    -selenium 
-    -pytest
+    webdriver-manager
+    selenium 
+    pytest
     
 ## Steps to run the tests by using terminal 
 
