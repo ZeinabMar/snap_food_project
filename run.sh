@@ -1,1 +1,1 @@
-docker run test_snap
+docker run test
