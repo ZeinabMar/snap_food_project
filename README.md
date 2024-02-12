@@ -1,6 +1,14 @@
-# docker-python-unittest-pytest
+# Test_Divar_Web_Select_Vehicle
 
-This repository demonstrates a simple `Python` module with some unit tests using `unittest` and `pytest`; it also demonstrates that using Docker and a multi-stage `Dockerfile`.
+This repository demonstrates a process for select special vehicle from Divar Webcite by appliying Selenium in python3.10.
+this Code consists of multi actions alluded in below:
+1) select vehicle category
+2) select special vehicle such as car
+3) select intended use of vehicle
+4) apply three filter for instance color, Maximum price and minimum kilometrage
+5) apply cheapest filter after all of them
+6) ultimately, choose random advertising car shown
+7) selenium will take screenshot from result of this process for correctness executing code.This image is available as result.png.
 
 The multi-stage `Dockerfile` is completely unnecessary, but it demonstrates an approach that can be used to build `C++` libraries that require a large build environment but a small run environment. 
 
@@ -15,16 +23,11 @@ The multi-stage `Dockerfile` is completely unnecessary, but it demonstrates an a
 
 **Steps**:
 
-- Create a Python3 Virtualenv
-    - ```mkvirtualenv -p `which python3` unittest-pytest```
-- Ensure that Virtualenv is activated
-    - `workon unittest-pytest` 
-- Install the dev/test requirements
-    - `pip install -r requirements-dev.txt`
+- Install the dev/test requirements    - `pip install -r requirements.txt
 - Run the tests
-    - `python -m pytest -v --junit-xml test_results.xml some_module`
-- View the test results (in JUnit XML)
-    - `cat test_results.xml`
+    - python -m pytest test_Divar_Web_search_Vehicle.py
+- View the test results as image
+    - result.png 
 
 ## Steps to run the tests in Docker
 
