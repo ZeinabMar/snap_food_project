@@ -23,7 +23,7 @@ this Code consists of multiple actions alluded to below:
 - `cd /snap_food_project`
 - `python -m pytest test_Divar_Web_search_Vehicle.py`
 - View the test results as an image in /snap_food_project
-- result.png
+      - result.png
     - ![Image Alt Text](result.png)
 
 ## Steps to run the tests in Docker
