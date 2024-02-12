@@ -34,14 +34,14 @@ this Code consists of multiple actions alluded to below:
 
 **Steps**:
 
-- Build the Docker image
+1) Build the Docker image
 - `docker build -t "test" -f Dockerfile .`
-- Create a container instance of that image (which will run the entrypoint)
+2) Create a container instance of that image (which will run the entrypoint)
 - `docker run test`
 
 ## Convenience scripts (for Docker approach)
 
-- Build the Docker image
+1) Build the Docker image
 - `./build.sh`
-- Run the Docker image and extract the test results
+2) Run the Docker image and extract the test results
 - `./run.sh`
