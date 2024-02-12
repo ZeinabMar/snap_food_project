@@ -1,1 +1,1 @@
-docker build -t "test_snap" .
+docker build -t "test" -f Dockerfile .
