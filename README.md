@@ -14,7 +14,8 @@ The multi-stage `Dockerfile` is completely unnecessary, but it demonstrates an a
 
 **Steps to run the tests by using terminal**:
 
-- Install the dev/test requirements    - `pip install -r requirements.txt
+- Install the requirements
+    - `pip install -r requirements.txt
 - Run the tests
     - python -m pytest  - `test_Divar_Web_search_Vehicle.py `
 - View the test results as image
