@@ -35,15 +35,9 @@ this Code consists of multi actions alluded in below:
 **Steps**:
 
 - Build the Docker image
-    - `docker build -t test_some_module -f Dockerfile .`
+    - `docker build -t "test" -f Dockerfile .`
 - Create a container instance of that image (which will run the entrypoint)
-    - `docker run -it --name test_some_module test_some_module`
-- Copy out the test results
-    - `docker cp test_some_module:/srv/test_results.xml ./test_results.xml`
-- Remove the container instance
-    - `docker rm -f test_some_module`
-- View the test results (in JUnit XML)
-    - `cat test_results/some_module_results.xml`
+    - `docker run test`
 
 ## Convenience scripts (for Docker approach)
 
