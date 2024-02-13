@@ -17,8 +17,8 @@ this Code consists of multiple actions alluded to below:
     
 ## Steps to run the tests by using the terminal 
 1) install in env of python
-- `python3 -m venv .venv`
-- `source .venv/bin/activate`
+- `python3 -m venv .snapfoodenv`
+- `source .snapfoodenv/bin/activate`
 2) Install the requirements
 - `cd /snap_food_project`
 - `pip install -r requirements.txt`
