@@ -25,10 +25,21 @@ this Code consists of multiple actions alluded to below:
 3) Run the tests
 - `python3 -m pytest test_Divar_Web_search_Vehicle.py`
 4) View the test results as an image and video in /out_put folder.
-- `result.png`
-![Image Alt Text](out_put/result.png)
 - `video`
 ![Watch the video](out_put/video_of_result.webm)
+- `result.png`
+![Image Alt Text](out_put/image_of_process/1.PNG)
+![Image Alt Text](out_put/image_of_process/2.PNG)
+![Image Alt Text](out_put/image_of_process/3.PNG)
+![Image Alt Text](out_put/image_of_process/4.PNG)
+![Image Alt Text](out_put/image_of_process/5.PNG)
+![Image Alt Text](out_put/image_of_process/6.PNG)
+![Image Alt Text](out_put/image_of_process/7.PNG)
+![Image Alt Text](out_put/image_of_process/8.PNG)
+![Image Alt Text](out_put/image_of_process/9.PNG)
+![Image Alt Text](out_put/image_of_process/10.PNG)
+![Image Alt Text](out_put/image_of_process/result.png)
+
 
 
 ## Steps to run the tests in Docker
