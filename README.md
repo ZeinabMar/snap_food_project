@@ -25,9 +25,9 @@ this Code consists of multiple actions alluded to below:
 3) Run the tests
 - `python3 -m pytest test_Divar_Web_search_Vehicle.py`
 4) View the test results as an image and video in /out_put folder.
-- `video`
+- `Video`
 ![Watch the video](out_put/video_of_result.webm)
-- `result.png`
+- `Images`
 ![Image Alt Text](out_put/image_of_process/1.PNG)
 ![Image Alt Text](out_put/image_of_process/2.PNG)
 ![Image Alt Text](out_put/image_of_process/3.PNG)
