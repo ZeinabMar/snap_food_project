@@ -24,9 +24,10 @@ this Code consists of multiple actions alluded to below:
 - `pip3 install -r requirements.txt`
 3) Run the tests
 - `python3 -m pytest test_Divar_Web_search_Vehicle.py`
-4) View the test results as an image in /snap_food_project
+4) View the test results as an image and video in /out_put folder.
 - `result.png`
 -    ![Image Alt Text](out_put/result.png)
+- `video`
 -    ![Watch the video](out_put/video_of_result.webm)
 
 
