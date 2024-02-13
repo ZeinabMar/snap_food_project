@@ -16,13 +16,15 @@ this Code consists of multiple actions alluded to below:
     pytest
     
 ## Steps to run the tests by using the terminal 
-
-1) Install the requirements
+1) install in env of python
+- `python3 -m venv .venv`
+- `source .venv/bin/activate`
+2) Install the requirements
 - `cd /snap_food_project`
 - `pip install -r requirements.txt`
-2) Run the tests
+3) Run the tests
 - `python -m pytest test_Divar_Web_search_Vehicle.py`
-3) View the test results as an image in /snap_food_project
+4) View the test results as an image in /snap_food_project
 - `result.png`
 -    ![Image Alt Text](result.png)
 
