@@ -38,7 +38,7 @@ this Code consists of multiple actions alluded to below:
 ![Image Alt Text](out_put/image_of_process/8.PNG)
 ![Image Alt Text](out_put/image_of_process/9.PNG)
 ![Image Alt Text](out_put/image_of_process/10.PNG)
-![Image Alt Text](out_put/image_of_process/result.png)
+![Image Alt Text](out_put/result.png)
 
 
 
