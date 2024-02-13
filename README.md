@@ -16,17 +16,18 @@ this Code consists of multiple actions alluded to below:
     pytest
     
 ## Steps to run the tests by using the terminal 
-1) activate environment
+1) active environment
 - `python3 -m venv .snapfoodenv`
 - `source .snapfoodenv/bin/activate`
 2) Install the requirements
-- `cd /snap_food_project`
+- `cd /snap_food_project/QA_Atomation`
 - `pip3 install -r requirements.txt`
 3) Run the tests
 - `python3 -m pytest test_Divar_Web_search_Vehicle.py`
 4) View the test results as an image in /snap_food_project
 - `result.png`
--    ![Image Alt Text](result.png)
+-    ![Image Alt Text](out_put/result.png)
+-    ![Video Alt Text](video_of_result.webm)
 
 ## Steps to run the tests in Docker
 
@@ -37,6 +38,7 @@ this Code consists of multiple actions alluded to below:
 **Steps**:
 
 1) Build the Docker image
+- `cd /snap_food_project/QA_Atomation`
 - `docker build -t "test" -f Dockerfile .`
 2) Create a container instance of that image (which will run the entrypoint)
 - `docker run test`
@@ -44,6 +46,7 @@ this Code consists of multiple actions alluded to below:
 ## Convenience scripts (for Docker approach)
 
 1) Build the Docker image
+- `cd /snap_food_project/QA_Atomation`
 - `./build.sh`
 2) Run the Docker image and extract the test results
 - `./run.sh`
