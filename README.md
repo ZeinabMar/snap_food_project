@@ -16,14 +16,14 @@ this Code consists of multiple actions alluded to below:
     pytest
     
 ## Steps to run the tests by using the terminal 
-1) install in env of python
+1) activate environment
 - `python3 -m venv .snapfoodenv`
 - `source .snapfoodenv/bin/activate`
 2) Install the requirements
 - `cd /snap_food_project`
-- `pip install -r requirements.txt`
+- `pip3 install -r requirements.txt`
 3) Run the tests
-- `python -m pytest test_Divar_Web_search_Vehicle.py`
+- `python3 -m pytest test_Divar_Web_search_Vehicle.py`
 4) View the test results as an image in /snap_food_project
 - `result.png`
 -    ![Image Alt Text](result.png)
