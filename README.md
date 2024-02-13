@@ -27,7 +27,7 @@ this Code consists of multiple actions alluded to below:
 4) View the test results as an image in /snap_food_project
 - `result.png`
 -    ![Image Alt Text](out_put/result.png)
--    ![Video Alt Text](video_of_result.webm)
+-    ![Watch the video](video_of_result.webm)
 
 ## Steps to run the tests in Docker
 
