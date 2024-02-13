@@ -29,6 +29,7 @@ this Code consists of multiple actions alluded to below:
 -    ![Image Alt Text](out_put/result.png)
 -    ![Watch the video](out_put/video_of_result.webm)
 
+
 ## Steps to run the tests in Docker
 
 **Prerequisites**:
