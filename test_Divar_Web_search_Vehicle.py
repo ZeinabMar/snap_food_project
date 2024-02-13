@@ -18,14 +18,15 @@ action = ActionChains(driver=divar_driver)
 divar_driver.get("https://divar.ir/s/tehran")
 sleep(4)
 
-
+# explicit wait for the appearance of one element
 def Wait_For_Appearance(driver,by_find_element, context_of_by):
     try:
         element = WebDriverWait(driver, 15).until(
         EC.presence_of_element_located((by_find_element,context_of_by)))
         return element
     except: return None
-
+        
+# explicit wait for the appearance of multiple elements
 def Wait_For_Appearance_whole_of_something(driver,by_find_element, context_of_by):
     try:
         elements = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((by_find_element,context_of_by)))
